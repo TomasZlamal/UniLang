@@ -10,7 +10,7 @@ AboutUsText
 ## UsageHeading
 UsageText
 ```
-The content of these headings and text will be the id's of the associative array, later.
+The content of these headings and text will be the keys of the associative array, later.
 ## Implementation of the template
 Then, copy the file into the specific language's file, e.g.:
 home_en.md:
