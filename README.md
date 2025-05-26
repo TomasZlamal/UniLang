@@ -34,9 +34,10 @@ $text = assoc_from_structure_and_text(
     "YOUR DIRECTORY/home_en.md" // replace with the language-specific implementation of the previous template
 );
 ```
-## Todo
-- [ ] Util functions (generate implementation files for each defined languages in specified directories, ...)
+
 Now you can access your text like this:
 ```php
 <?= $params["AboutUsHeading"] ?> // returns "About this library"
 ```
+## Todo
+- [ ] Util functions (generate implementation files for each defined languages in specified directories, ...)
