@@ -25,7 +25,7 @@ PHP.
 The nice thing about this templating-way of doing this is that you don't need to look at the specific implementations at all; you just need to look at the .wps.md file, and go from there.
 ## Usage in PHP
 Inside of your controller (or anywhere where you pass info to your presentation files), use it like this:
-```
+```php
 require "YOUR DIRECTORY/unilang.php";
 
 $text = assoc_from_structure_and_text(
