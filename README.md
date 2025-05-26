@@ -30,7 +30,7 @@ require "YOUR DIRECTORY/unilang.php";
 
 $text = assoc_from_structure_and_text(
     "YOUR DIRECTORY/home_structure.wps.md",
-    "YOUR DIRECTORY/home_en.md"
+    "YOUR DIRECTORY/home_en.md" // replace with the language-specific implementation of the previous template
 );
 ```
 Now you can access your text like this:
