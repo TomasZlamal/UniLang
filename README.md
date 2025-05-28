@@ -1,9 +1,14 @@
 # UniLang
 Language-agnostic way of handling multiple languages in PHP using predefined structures (also using markdown).
+## Existing solutions
 
-The inspiration for this library was the fact that current solutions didn't seem a 100% ideal. Pure php with a ```return [];``` statement? Sure, but why encode language-independent information in a language-dependant mamner?
+The inspiration for this library was the fact that current solutions didn't seem a 100% ideal.
+### PHP solution
+Pure php with a ```return [];``` statement? Sure, but why encode language-independent information in a language-dependant mamner?
+### JSON
+JSON? Much better, but JSON isn't a format designed for the structure of webpages.
 
-JSON? Much better, but JSON isn't a format designed for the structure of webpages. The obvious alternative was markdown, which has similar structure and format to HTML.
+The obvious alternative was markdown, which has similar structure and format to HTML.
 ## Usage
 ### The template
 First, you need to define a file with the structure of your webpage using markdown.
